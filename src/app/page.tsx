@@ -5,7 +5,6 @@ import { Navbar } from "@/components/navbar";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-190px)]">
         <div className=" flex flex-col items-center justify-center">
           <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold underline underline-offset-8 decoration-2 ">

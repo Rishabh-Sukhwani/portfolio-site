@@ -1,0 +1,65 @@
+[
+    {
+      "title": "requesTUI",
+      "description": "A pseudo-postman-like TUI written in Go for API testing and sending http requests directly from your terminal",
+      "content": "Used tview to create a TUI using golang.\nImplemented http requests using the net/http requests in go",
+      "footer": "Go",
+      "url": "https://github.com/Rishabh-Sukhwani/requesTUI"
+    },
+    {
+      "title": "pdfsearch-cli",
+      "description": "A command-line tool to search for a specific string in PDF files in a given directory and its subdirectories. ",
+      "content": "Implemented parsing of text from pdf files in golang.\nUsed go-routines to search the name of the pdf file",
+      "footer": "Go",
+      "url": "https://github.com/Rishabh-Sukhwani/pdfsearch-cli"
+    },
+    {
+      "title": "MarkIt",
+      "description": "MarkIt is a realtime markdown editor built using NodeJS, SocketIO and ShowdownJS",
+      "content": "Used socketIO to relay data and send back output to and from server in real time.\nImplemented text to markdown parsing using showdownJS.",
+      "footer": "NodeJS, HTML, CSS",
+      "url": "https://github.com/Rishabh-Sukhwani/MarkIt"
+    },
+    {
+      "title": "stock-scraping-API",
+      "description": "A stock scraping service that scrapes data from yahoo finance and serves it on a REST API endpoint using fastAPI.",
+      "content": "Used bs4 to parse and scrape stock webpage.\nUsed fastAPI to get requested stock parameter, call the scraping service and serve it on the given endpoint.",
+      "footer": "Python, FastAPI, bs4",
+      "url": "https://github.com/Rishabh-Sukhwani/stock-scraping-API"
+    },
+    {
+      "title": "app-blocker",
+      "description": "A desktop app to remove distractions, built using electronJS.",
+      "content": "Set up main functionality for blocking selected installed applications and websites. Implemented a dashboard route and a logs route in the project for additional information.",
+      "footer": "ElectronJS",
+      "url": "https://github.com/Rishabh-Sukhwani/app-blocker"
+    },
+    {
+        "title": "VTOP-download-manager",
+        "description": "A python program for dealing with the unreadable names given to reference material on my college portal's download page.",
+        "content": "The program sorts all the material downloaded from course page into each subject in each semester and sorts it according to the date given on VTOP.",
+        "footer": "Python",
+        "url": "https://github.com/Rishabh-Sukhwani/VTOP-download-manager"
+    },
+    {
+        "title": "react-meals-app",
+        "description": "A website built using react to view different meals, their recipes and save them!",
+        "content": "Implemented useState, useEffect, useContext hooks in react to create a simple webapp",
+        "footer": "ReactJS",
+        "url": "https://github.com/Rishabh-Sukhwani/react-meals-app"
+    },
+    {
+        "title": "user-login-api",
+        "description": "A simple authentication API with login and signup routes.",
+        "content": "Used JWT to implement an authentication API along with password hashing and persistance using mongoDB",
+        "footer": "NodeJS, MongoDB",
+        "url": "https://github.com/Rishabh-Sukhwani/user-login-api"
+    },
+    {
+        "title": "discord-admin-bot",
+        "description": "A discord bot with adminstrative functionalities written in NodeJS.",
+        "content": "Used the discord API to create a discord bot with simple admin privileges.",
+        "footer": "NodeJS",
+        "url": "https://github.com/Rishabh-Sukhwani/discord-admin-bot"
+    }
+  ]
