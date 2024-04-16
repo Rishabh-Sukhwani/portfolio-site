@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Research and Development Intern",
+      "company": "@Samsung R&D Institute India",
+      "duration": "Jan 2024 - Present",
+      "responsibilities": [
+        "- Part of the Samsung PRISM program working with the generative AI team",
+        "- Working on improving the accuracy of the open-source LLaVA model for grounded editing"
+      ],
+      "skills": [
+        "Generative AI",
+        "LLaVA model",
+        "Grounded Editing"
+      ]
+    },
+    {
+      "title": "Information Technology Intern",
+      "company": "@Spectra",
+      "duration": "Aug 2023 - Oct 2023",
+      "responsibilities": [
+        "- Working on an application and website blocking desktop app as a proof of concept and assisting team members in on-going development work",
+        "- Created an application blocker desktop app using ElectronJS",
+        "- Designed UI for the app",
+        "- Set up main functionality for blocking selected installed applications and websites",
+        "- Implemented a dashboard route and a logs route in the project for additional information",
+        "- Worked on SQL queries to assist fellow employees in fetching and manipulating data records",
+        "- Helped in fixing bugs on Spectra's internal applications"
+      ],
+      "skills": [
+        "ElectronJS",
+        "Desktop App Development",
+        "UI Design",
+        "SQL",
+        "Bug Fixing"
+      ]
+    }
+  ]
