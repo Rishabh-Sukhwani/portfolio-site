@@ -11,7 +11,9 @@ export default function Home() {
             Hi, I'm Rishabh
           </h1>
           <div className="mt-3 ">
-            <Button>Resume</Button>
+            <a href="https://drive.google.com/file/d/1dLFDbSWjX9bRJPKxTfZsmuBDHHweSqiX/view?usp=sharing" target="_blank">
+              <Button>Resume</Button>
+            </a>
           </div>
           
         </div>
