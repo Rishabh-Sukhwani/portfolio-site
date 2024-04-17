@@ -1,5 +1,6 @@
 
 import Link from "next/link"
+import { JSX, SVGProps } from "react"
 
 export function Contact() {
   return (
@@ -50,7 +51,7 @@ export function Contact() {
   )
 }
 
-function FacebookIcon(props) {
+function FacebookIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -70,7 +71,7 @@ function FacebookIcon(props) {
 }
 
 
-function GithubIcon(props) {
+function GithubIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -91,7 +92,7 @@ function GithubIcon(props) {
 }
 
 
-function InstagramIcon(props) {
+function InstagramIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -113,7 +114,7 @@ function InstagramIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -135,7 +136,7 @@ function LinkedinIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

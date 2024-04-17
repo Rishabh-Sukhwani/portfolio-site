@@ -7,7 +7,21 @@ import {
     CardTitle,
   } from "@/components/ui/card";
   
-  export default function CardComponent({ title, description, content, footer, url }) {
+  interface CardComponentProps {
+    title: string;
+    description: string;
+    content: string;
+    footer: string;
+    url: string;
+  }
+  
+  export default function CardComponent({
+    title,
+    description,
+    content,
+    footer,
+    url,
+  }: CardComponentProps) {
     return (
       <a href={url} target="_blank" rel="noopener noreferrer" className="block">
         <div className="cursor-pointer">
